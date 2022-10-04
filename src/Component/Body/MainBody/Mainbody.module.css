@@ -1,0 +1,11 @@
+.main-body{
+    padding-top: 3rem;
+    background-color: var(--very-lg-gray);
+    margin-top: 1rem;
+    min-height: 100vh;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

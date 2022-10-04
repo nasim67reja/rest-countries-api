@@ -1,0 +1,25 @@
+.input-box{
+    position: relative;
+    /* border: 2px solid black; */
+}
+.input{
+    width: 45rem;
+    padding: 1.5rem 6rem ;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 15px 3px rgba(136, 136, 136, 0.227);
+}
+ .input:focus{
+     outline: none;
+    box-shadow: 0 0 15px 5px rgba(136, 136, 136, 0.327);
+ }
+#search{
+    position: absolute;
+    transform: translate(50%,50%);
+    cursor: pointer;
+}
+#close{
+    position: absolute;
+    transform: translate(-140%,35%);
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.border {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 35fr 65fr;
+  gap: 2rem;
+}
+.border-title {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.btn-list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.btn {
+  padding: 0.3rem 1.2rem;
+  background: transparent;
+  border: none;
+  box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.15);
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+
+.backup{
+  font-size: 1.6rem;
+}
